@@ -1,8 +1,10 @@
-/* html{
-    height: 100%;
-} */
-body{
+html{
     background-image: linear-gradient(#FC5E55, #FA4083);
+}
+body{
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
     font-family: 'Roboto', sans-serif;
     color: white;
     display: block;
@@ -114,6 +116,8 @@ a.BookOnlineButton{
     color: white;
     border: 1px solid white;
     padding: 10px 20px;
+    display: inline-block;
+    position: relative;
 }
 .testimonials{
     display: flex;
@@ -127,4 +131,36 @@ a.BookOnlineButton{
     border: 1px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+}
+.heroBox1 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.tbox p:last-of-type{
+    float: right;
+    font-weight: bold;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.navButton:hover .dropdown{
+    display: block;
+
+}
+.navButton .dropdown{
+    width:120px;
+    background-color: white;
+}
+.navButton .dropdown a{
+    color:#FA4083;
+}
+section{
+    padding:30px 20px 30px 20px;
+    min-height: 300px;
+}
+section p{
+    margin-top:20px;
 }
