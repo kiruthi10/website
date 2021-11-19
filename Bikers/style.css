@@ -164,3 +164,23 @@ section{
 section p{
     margin-top:20px;
 }
+.inputwrapper{
+    margin-bottom: 30px;
+}
+input[type=text], input[type=email], textarea{
+    padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.newline{
+    display: block;
+    margin-bottom:10px;
+}
+.margin-right{
+    margin-right: 20px;
+}
+form{
+    margin: 40px 0px;
+}
